@@ -92,6 +92,7 @@ nav
     color: #46402c;
     margin-top: 4%;
     margin-left: 2.3%;
+    text-align: center;
 }
 
 .container-habilidades
@@ -344,3 +345,268 @@ footer
     justify-content: center;
     font-size: 1.8em;
 }
+
+/* mobile */
+
+@media(max-width: 768px)
+{
+            .container-header
+        {
+            flex-direction: column;
+            height: 250px;
+            font-size: 2em;
+            
+        }
+
+        .titulo
+        {
+            height: 200px;
+            margin-top: 8%;
+
+        }
+
+        .redes-sociais
+        {
+            width: 410px;
+        }
+
+        .img-linkedin
+        {
+            width: 220px;
+        }
+
+        .img-github
+        {
+            width: 190px;
+        }
+
+        .container-sobre-mim
+        {
+            font-size: 1.5em;
+            flex-direction: column;
+
+            
+            
+        }
+
+
+
+        .titulo-sobre-mim
+        {
+            text-align: center;
+            
+        }
+
+        .container-sobre-mim-img
+        {
+            height: 300px;
+            width: 600px;
+            
+        }
+
+        .foto-eu
+        {
+            margin-top: 6%;
+            margin-left: 36%;
+        }
+
+        .container-sobre-mim-resumo
+        {
+            height: 550px;
+            width: 500px;
+            font-size: 1.4em;
+        }
+        .titulo-habilidade
+        {
+            text-align: center;
+        }
+
+        .container-habilidades
+        {
+            margin-top: 5%;
+            flex-direction: column;
+            height: 350px;
+            flex-wrap: wrap;
+        }
+        .container-habilidades-nome
+        {
+            font-size: 1.3em;
+        }
+
+        .container-jogoForca
+        {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container-forca-sobre
+        {
+            height: 650px;
+            width: 500px;
+        }
+
+        .container-forca-resumo
+        {
+            margin-top: 6%;
+            font-size: 1.1em;
+        }
+        .container-bnt
+        {
+            margin-top: 20%;
+        }
+        .btn-demo
+        {
+            width: 200px;
+            height: 70px;
+            font-size: 30px;
+        }
+
+        .btn-repo{
+
+            width: 200px;
+            height: 70px;
+            font-size: 30px;
+        }
+
+        .container-encriptador
+        {
+            flex-direction: column;
+            align-items: center;
+        }
+        .container-encripto-sobre
+        {
+            height: 650px;
+            width: 500px;
+        }
+
+        .container-encripto-resumo
+        {
+            margin-top: 6%;
+            font-size: 1.1em;
+        }
+
+        .container-nutri
+        {
+            flex-direction: column;
+            align-items: center;
+            height: 800px;
+        }
+
+        .container-nutri-sobre
+        {
+            height: 650px;
+            width: 500px;
+        }
+
+        .container-nutri-resumo
+        {
+            margin-top: 6%;
+            font-size: 1.1em;
+        }
+
+        .container-barbearia
+        {
+            flex-direction: column;
+            align-items: center;
+            height: 550px;
+        }
+
+        .container-barbearia-sobre
+        {
+            height: 650px;
+            width: 500px;
+        }
+
+        .container-barbearia-resumo
+        {
+            margin-top: 6%;
+            font-size: 1.1em;
+        }
+
+        .container-mais-projetos
+        {
+            height: 100px;
+            margin-top: 4%;
+        }
+
+        .container-contato
+        {
+            flex-wrap: nowrap;
+            height: 550px;
+        }
+
+        #email
+        {
+            width: 80%;
+            height: 50px;
+        }
+
+        #email::-webkit-input-placeholder
+        {
+            font-size: 30px;
+        }
+
+        #nome
+        {
+            width: 80%;
+            height: 50px;
+        }
+
+        #nome::-webkit-input-placeholder
+        {
+            font-size: 30px ;
+        }
+
+        label
+        {
+            font-size: 30px;
+        }
+
+        #assunto
+        {
+            font-size: 17px;
+        }
+
+        #assunto::-webkit-input-placeholder
+        {
+            font-size: 40px;
+        }
+
+        .form-assunto{
+            font-size: 30px;
+        }
+
+        .container-bnt
+        {
+            margin-top: 4%;
+        }
+
+        .btn-enviar
+        {
+            width: 200px;
+            height: 70px;
+            font-size: 30px;
+        }
+
+        .email
+        {
+            font-size: 35px;
+            text-align: center;
+        }
+
+        .footer
+        {
+            height: 200px;
+        }
+
+        .rodape
+        {
+            font-size: 35px;
+            height: 100px;
+            width: 500px;
+            text-align: center;
+            align-self: flex-end; 
+            
+        }
+}
+
