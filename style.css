@@ -356,15 +356,15 @@ footer
             .container-header
         {
             flex-direction: column;
-            height: 250px;
+            height: 350px;
             font-size: 2em;
             
         }
 
         .titulo
         {
-            height: 200px;
-            margin-top: 8%;
+            height: 400px;
+            margin-top: 15%;
 
         }
 
@@ -375,12 +375,12 @@ footer
 
         .img-linkedin
         {
-            width: 220px;
+            width: 140px;
         }
 
         .img-github
         {
-            width: 190px;
+            width: 120px;
         }
 
         .container-sobre-mim
@@ -415,8 +415,8 @@ footer
 
         .container-sobre-mim-resumo
         {
-            height: 550px;
-            width: 500px;
+            height: 1400px;
+            width: 200px;
             font-size: 1.4em;
         }
         .titulo-habilidade
@@ -440,12 +440,18 @@ footer
         {
             flex-direction: column;
             align-items: center;
+            margin-top: 9%;
+        }
+
+        .imagem-forca
+        {
+            width: 250px ;
         }
 
         .container-forca-sobre
         {
-            height: 650px;
-            width: 500px;
+            height: 1000px;
+            width: 300px;
         }
 
         .container-forca-resumo
@@ -459,14 +465,14 @@ footer
         }
         .btn-demo
         {
-            width: 200px;
+            width: 100px;
             height: 70px;
             font-size: 30px;
         }
 
         .btn-repo{
 
-            width: 200px;
+            width: auto;
             height: 70px;
             font-size: 30px;
         }
@@ -476,10 +482,16 @@ footer
             flex-direction: column;
             align-items: center;
         }
+
+        .img-encripto
+        {
+            width: 250px;
+        }
+
         .container-encripto-sobre
         {
-            height: 650px;
-            width: 500px;
+            height: 1000px;
+            width: 300px;
         }
 
         .container-encripto-resumo
@@ -492,13 +504,17 @@ footer
         {
             flex-direction: column;
             align-items: center;
-            height: 800px;
+            height: 640px;
         }
 
+        .nutri-img
+        {
+            width: 200px;
+        }
         .container-nutri-sobre
         {
-            height: 650px;
-            width: 500px;
+            height: 1000px;
+            width: 300px;
         }
 
         .container-nutri-resumo
@@ -512,12 +528,18 @@ footer
             flex-direction: column;
             align-items: center;
             height: 550px;
+            margin-top: 50%;
+        }
+        
+        .barbearia-img
+        {
+            width: 200px;
         }
 
         .container-barbearia-sobre
         {
-            height: 650px;
-            width: 500px;
+            height: 1000px;
+            width: 300px;
         }
 
         .container-barbearia-resumo
@@ -529,7 +551,9 @@ footer
         .container-mais-projetos
         {
             height: 100px;
-            margin-top: 4%;
+            margin-top: 12%;
+            flex-wrap: wrap;
+            
         }
 
         .container-contato
@@ -538,10 +562,16 @@ footer
             height: 650px;
         }
 
+        .form-email
+        {
+        text-align: center;
+        }
+
         #email
         {
-            width: 80%;
+            width: 20%;
             height: 50px;
+            font-size: 18px;
         }
 
         #email::-webkit-input-placeholder
@@ -549,10 +579,18 @@ footer
             font-size: 30px;
         }
 
+
+
+        .form-nome
+        {
+            text-align: center;
+        }
+
         #nome
         {
-            width: 80%;
+            width: 20%;
             height: 50px;
+            font-size: 18px;
         }
 
         #nome::-webkit-input-placeholder
@@ -568,6 +606,12 @@ footer
         #assunto
         {
             font-size: 17px;
+            width: 300px;
+        }
+
+        textarea
+        {
+            font-size: 40px;
         }
 
         #assunto::-webkit-input-placeholder
@@ -595,11 +639,40 @@ footer
         {
             font-size: 35px;
             text-align: center;
+            height: 100px;
         }
+
+        .email-email
+        {
+            height: 150px;
+            width: 400px;
+            margin-top: 5%;
+            margin-right: 5%;
+        }
+
+            .gmail
+            {
+                width: 300px;
+                text-align: center;
+                height: 50px;
+            }
+
+        .meu-contato
+        {
+            height: 150px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+        
+        
 
         .footer
         {
-            height: 200px;
+            height: 150px;
+            
         }
 
         .rodape
@@ -608,7 +681,7 @@ footer
             height: 100px;
             width: 500px;
             text-align: center;
-            align-self: flex-end; 
+            align-self: center; 
             
         }
 }
