@@ -267,7 +267,7 @@ nav
 
 .container-contato
 {
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -344,11 +344,14 @@ footer
     align-items: center;
     justify-content: center;
     font-size: 1.8em;
+    background-color: #737065;
+    color: #D9D8D7;
+    
 }
 
 /* mobile */
 
-@media(max-width: 768px)
+@media(max-width: 800px)
 {
             .container-header
         {
@@ -532,7 +535,7 @@ footer
         .container-contato
         {
             flex-wrap: nowrap;
-            height: 550px;
+            height: 650px;
         }
 
         #email
