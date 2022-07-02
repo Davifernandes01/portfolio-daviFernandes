@@ -15,6 +15,7 @@ main
     font: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      background-color: #737065;
+    
 };
 
 
@@ -23,9 +24,17 @@ main
     height: 300px;
     
 }
+
+.links
+{
+    text-decoration: none;
+    color: #D9D8D7;
+}
+
 nav
 {
     color: #D9D8D7;
+    
 }
 
 .container-titulo
@@ -417,7 +426,8 @@ footer
 
     html, body
     {
-        overflow-x: hidden;
+        overflow-x: hidden ;
+        
         
     }
 
