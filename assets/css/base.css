@@ -1,0 +1,35 @@
+:root{
+
+
+    --cinza-claro:  #D9D8D7;
+    --cinza-amarelado: #737065;
+    --marron-claro: #46402c;
+    --marron-mais-claro: #42413e;
+    --marron:  #423926;
+}
+
+main
+{
+    background-color: var(--cinza-claro);
+}
+
+nav
+{
+    color: var(--cinza-claro); 
+}
+
+
+
+footer
+{
+    display: flex;
+    height: 100px;
+    background-color: var(--cinza-claro);
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    background-color:var(--cinza-amarelado);
+    color: var(--cinza-claro);
+    
+}
+

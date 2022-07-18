@@ -1,0 +1,25 @@
+.container-cabecalho
+{
+    height: 300px;
+    
+}
+
+.container-header
+{
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: #737065;
+     text-decoration: none;
+    
+}
+
+.links
+{
+    text-decoration: none;
+    color: var(--cinza-claro);
+}

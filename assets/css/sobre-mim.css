@@ -1,0 +1,54 @@
+
+.container-titulo
+{
+     width: 50%;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.9em;
+    
+}
+
+.titulo
+{
+    margin-top: 5%;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+.container-sobre-mim
+{
+    display: flex;
+    font-size: 1.3em;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.container-sobre-mim-img
+{
+    width: 300px;
+    margin-right: 1.5%;
+    margin-left: 2.3%;
+    align-items: flex-end;
+    align-self: center;
+}
+
+.titulo-sobre-mim
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--marron);
+    
+}
+
+.container-sobre-mim
+{
+    width: 100%;
+        
+}

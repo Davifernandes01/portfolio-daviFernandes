@@ -1,0 +1,165 @@
+.titulo-projeto
+{
+    font-size: 2.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--marron);
+    margin-top: 3%;
+    margin-left: 2.3%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+    .container-projetos
+    {
+        height: 1550px;
+    }
+
+.container-jogoForca
+{
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-around;
+    font-size: 1.6em;
+    align-items: flex-start;
+}
+
+.container-forca-sobre
+{
+    width: 600px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-bnt
+{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.btn-demo
+{
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    color: var(--cinza-claro);
+    background: var(--marron);
+    
+}
+
+.btn-demo:hover
+{
+    background-color: var(--marron-mais-claro);
+
+}
+
+.btn-demo:active
+{
+    width: 130px;
+    height: 30px;
+}
+
+.btn-repo
+{
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    color: var(--cinza-claro);
+    background: var(--marron);
+
+}
+.btn-repo:hover
+{
+    background-color: var(--marron-mais-claro);
+
+}
+
+
+.btn-repo:active
+{
+    width: 130px;
+    height: 30px;
+}
+
+.container-encriptador
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: flex-start;
+    margin-top: 3%;
+}
+
+.container-encripto-sobre
+{
+    width: 600px;
+    text-align: center;
+}
+
+.container-nutri
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    font-size: 1.6em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: flex-start;
+}
+
+
+.container-nutri-sobre
+{
+    width: 600px;
+    text-align: center;
+}
+
+.container-bnt-nutri
+{
+    margin-top: 5%;
+}
+
+
+.container-barbearia
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    font-size: 1.6em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: flex-start;
+}
+
+.container-barbearia-sobre
+{
+    width: 600px;
+    text-align: center;
+}
+.container-bnt-barbearia
+        {
+            margin-top: 5%;
+        }
+        
+        
+
+.container-mais-projetos
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 80px;
+}
+.mais-projetos
+{
+    margin-left: 1%;
+    margin-top: 1%;
+    font-size: 2.1em;
+    text-align: center;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: var(--marron);
+
+}
