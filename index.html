@@ -217,25 +217,28 @@
 
                     <div class="form-email">
                         <label for="email">Email</label>
-                        <input id="email" type="email" placeholder="Email">
+                        <input id="email" type="email" placeholder="Email" data-email>
                     </div>
 
                     <br>
 
                     <div class="form-nome">
                         <label for="nome">Nome</label>
-                        <input id="nome" type="text" placeholder="Nome">
+                        <input id="nome" type="text" placeholder="Nome" data-nome>
                     </div>
 
                     <br>
 
                     <div class="form-assunto">
-                        <textarea id="assunto" placeholder="Assunto" rows="10" cols="60" class="assunto"></textarea>
-                    </div>
+                        <textarea id="assunto" placeholder="Assunto" rows="10" cols="60" class="assunto" data-assunto></textarea>
 
+                        <span class="span remove"  data-span>Por favor, digite todos os campos</span>
+                        <span class="span-msg remove" data-span-msg>Mensagem enviada!!</span>
+                    </div>
+                        
                     <div class="container-bnt-enviar">
 
-                        <button class="btn-enviar">Enviar</button>
+                        <button class="btn-enviar" data-btn>Enviar</button>
                     </div>
                     
                 </form>
@@ -282,6 +285,7 @@
 
             </footer>
 
+            <script src="assets/main.js"></script>
 
 </body>
 </html>

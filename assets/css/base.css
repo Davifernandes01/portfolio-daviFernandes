@@ -23,7 +23,7 @@ nav
 footer
 {
     display: flex;
-    height: 100px;
+    height: 90px;
     background-color: var(--cinza-claro);
     align-items: center;
     justify-content: center;

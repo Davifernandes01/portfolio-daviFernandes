@@ -11,7 +11,8 @@
 
 .container-contato
 {
-    height: 350px;
+    height: 420px;
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -37,6 +38,10 @@ label
     font-size: 20px;
 }
 
+.form-contato{
+    width: 350px;
+}
+
 .form-assunto
 {
     align-items: flex-end;
@@ -52,6 +57,24 @@ label
 #assunto::-webkit-input-placeholder
 {
     font-size: 30px;
+}
+
+.span{
+    color: red;
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.span-msg{
+    color: rgb(0, 140, 255);
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.remove{
+    display: none;
 }
 
 .btn-enviar
@@ -118,3 +141,4 @@ label
         align-items: flex-start;
         justify-content: center;
     }
+
